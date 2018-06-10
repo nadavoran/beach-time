@@ -17,15 +17,7 @@ export default class App extends React.Component {
 	}
 	render() {
 		return (
-			<Provider
-				appStore={appStore}
-				// loginStore={loginStore}
-				// systemLoginStore={systemLoginStore}
-				// uiConfigStore={uiConfigStore}
-				// systemStore={systemStore}
-				// attachmentsStore={attachmentsStore}
-				// systemLogStore={systemLogStore}
-			>
+			<Provider appStore={appStore}>
 				<AppNavigator />
 			</Provider>
 		);
